@@ -21,6 +21,8 @@ By the end of this project, you should be able to explain:
 | `2-assembler` | A Bash script that generates the assembly code of a C file stored in `$CFILE` and saves it with a `.s` extension. |
 | `3-name` | A Bash script that compiles a C file stored in `$CFILE` and creates an executable file named `cisfun`. |
 | `4-puts.c` | A C program that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line, using the `puts` function. |
+| `5-printf.c` | A C program that prints exactly `with proper grammar, but the outcome is a piece of art,`, followed by a new line, using the `printf` function. |
+
 
 
 ## Technical Requirements
