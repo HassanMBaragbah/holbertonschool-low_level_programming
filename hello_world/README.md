@@ -19,6 +19,7 @@ By the end of this project, you should be able to explain:
 | `0-preprocessor` | A Bash script that runs a C file stored in `$CFILE` through the preprocessor stage and outputs the result to a file named `c`. |
 | `1-compiler` | A Bash script that compiles a C file stored in `$CFILE` into an object file (without linking), producing a `.o` file. |
 | `2-assembler` | A Bash script that generates the assembly code of a C file stored in `$CFILE` and saves it with a `.s` extension. |
+| `3-name` | A Bash script that compiles a C file stored in `$CFILE` and creates an executable file named `cisfun`. |
 
 ## Technical Requirements
 
