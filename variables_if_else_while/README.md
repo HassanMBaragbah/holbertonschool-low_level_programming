@@ -12,3 +12,4 @@ This project covers the basics of variables, conditional statements (`if`, `if..
 | Task Number | File Name | Description | Status |
 | :---: | --- | --- | :---: |
 | **0** | `0-positive_or_negative.c` | Assigns a random number to `n` and prints whether it is positive, negative, or zero. | <ul><li>[x] Completed</li></ul> |
+| **1** | `1-last_digit.c` | Assigns a random number to `n` and prints its last digit with specific conditional messages. | <ul><li>[x] Completed</li></ul> |
