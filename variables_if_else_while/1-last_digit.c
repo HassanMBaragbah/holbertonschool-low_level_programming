@@ -31,7 +31,7 @@ int main(void)
 	}
 	else
 	{
-		printf(" and is less than 5\n");
+		printf("and is less than 5\n");
 	}
 
 	return (0);
