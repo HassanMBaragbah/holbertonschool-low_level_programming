@@ -14,3 +14,4 @@ This project covers the basics of variables, conditional statements (`if`, `if..
 | **0** | `0-positive_or_negative.c` | Assigns a random number to `n` and prints whether it is positive, negative, or zero. | <ul><li>[x] Completed</li></ul> |
 | **1** | `1-last_digit.c` | Assigns a random number to `n` and prints its last digit with specific conditional messages. | <ul><li>[x] Completed</li></ul> |
 | **2** | `2-print_alphabet.c` | Prints the alphabet in lowercase using `putchar` only twice. | <ul><li>[x] Completed</li></ul> |
+| **3** | `3-print_alphabets.c` | Prints the alphabet in lowercase, then in uppercase, using `putchar` only three times. | <ul><li>[x] Completed</li></ul> |
