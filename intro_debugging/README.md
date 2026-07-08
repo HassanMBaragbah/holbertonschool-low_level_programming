@@ -12,3 +12,8 @@ This project focuses on the systematic process of finding and fixing logic error
 * Language: C (compiled with `gcc -Wall -Wextra -Werror -pedantic -std=gnu89`)
 * No pointers, arrays, structs, dynamic memory, or file I/O allowed.
 * Output must match exactly, including spaces and newlines.
+
+## Tasks
+| Task | File | Description |
+| --- | --- | --- |
+| 0. Debugging a Counting Function | `sum_to_n.c` | Fixes a loop that misses the last iteration and returns the wrong variable. |
