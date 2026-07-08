@@ -20,3 +20,4 @@ By the end of this project, I will be able to master and explain:
 | Task | File | Description | Status |
 | --- | --- | --- | --- |
 | **0** | `0-putchar.c` | A program that prints `_putchar`, followed by a new line. | <ul><li>[x] Completed</li></ul> |
+| **1** | `1-alphabet.c` | A function that prints the alphabet in lowercase, followed by a new line, using `_putchar` twice. | <ul><li>[x] Completed</li></ul> |
