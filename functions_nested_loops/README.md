@@ -26,3 +26,4 @@ By the end of this project, I will be able to master and explain:
 | **4** | `4-isalpha.c` | A function that checks for alphabetic character, returning 1 if it is a letter and 0 otherwise. | <ul><li>[x] Completed</li></ul> |
 | **5** | `5-sign.c` | A function that prints the sign of a number (`+`, `0`, or `-`) and returns its corresponding value. | <ul><li>[x] Completed</li></ul> |
 | **6** | `6-abs.c` | A function that computes the absolute value of an integer. | <ul><li>[x] Completed</li></ul> |
+| **7** | `7-print_last_digit.c` | A function that prints and returns the last digit of a number. | <ul><li>[x] Completed</li></ul> |
