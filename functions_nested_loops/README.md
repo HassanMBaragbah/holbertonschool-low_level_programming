@@ -30,3 +30,4 @@ By the end of this project, I will be able to master and explain:
 | **8** | `8-24_hours.c` | A function that prints every minute of the day of Jack Bauer, from `00:00` to `23:59`. | <ul><li>[x] Completed</li></ul> |
 | **9** | `9-times_table.c` | A function that prints the 9 times table, starting with 0, formatted precisely with spaces. | <ul><li>[x] Completed</li></ul> |
 | **10** | `10-add.c` | A function that adds two integers and returns the result. | <ul><li>[x] Completed</li></ul> |
+| **11** | `11-print_to_98.c` | A function that prints all natural numbers from `n` to `98`, followed by a new line. | <ul><li>[x] Completed</li></ul> |
