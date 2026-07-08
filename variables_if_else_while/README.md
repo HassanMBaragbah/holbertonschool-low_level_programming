@@ -20,3 +20,4 @@ This project covers the basics of variables, conditional statements (`if`, `if..
 | **6** | `6-print_numberz.c` | Prints all single digit numbers of base 10 starting from 0, using `putchar` twice and no `char` variables. | <ul><li>[x] Completed</li></ul> |
 | **7** | `7-print_tebahpla.c` | Prints the lowercase alphabet in reverse, followed by a new line, using `putchar` only twice. | <ul><li>[x] Completed</li></ul> |
 | **8** | `8-print_base16.c` | Prints all the numbers of base 16 in lowercase, followed by a new line, using `putchar` three times. | <ul><li>[x] Completed</li></ul> |
+| **9** | `9-print_comb.c` | Prints all possible combinations of single-digit numbers separated by `, `, using `putchar` maximum four times. | <ul><li>[x] Completed</li></ul> |
