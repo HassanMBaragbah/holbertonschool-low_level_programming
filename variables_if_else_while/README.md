@@ -18,3 +18,4 @@ This project covers the basics of variables, conditional statements (`if`, `if..
 | **4** | `4-print_alphabt.c` | Prints the alphabet in lowercase except for `q` and `e`, using `putchar` only twice. | <ul><li>[x] Completed</li></ul> |
 | **5** | `5-print_numbers.c` | Prints all single digit numbers of base 10 starting from 0, followed by a new line. | <ul><li>[x] Completed</li></ul> |
 | **6** | `6-print_numberz.c` | Prints all single digit numbers of base 10 starting from 0, using `putchar` twice and no `char` variables. | <ul><li>[x] Completed</li></ul> |
+| **7** | `7-print_tebahpla.c` | Prints the lowercase alphabet in reverse, followed by a new line, using `putchar` only twice. | <ul><li>[x] Completed</li></ul> |
