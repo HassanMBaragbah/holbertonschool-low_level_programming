@@ -1,22 +1,27 @@
 # More Functions and Nested Loops
 
 ## Description
-This project focuses on deepening the understanding of functions, control flow, and nested loops in C programming. It involves creating custom utility functions for character checking, mathematical operations, and pattern printing without using the C standard library.
+This project focuses on deepening the understanding of control structures, nested loops, and custom function definitions in C programming. It emphasizes character processing using ASCII values and modular code architecture without relying on the C standard library.
 
 ## Learning Objectives
-* Understand and use nested loops efficiently.
-* Define and implement functions with parameters and return values.
-* Master character classification using ASCII values.
+* Understand how to construct and optimize nested loops.
+* Define and implement functions, distinguishing between declaration and definition.
+* Utilize function prototypes and construct robust header (`.h`) files.
+* Grasp variable scope and compiler configurations (`-Wall -Wextra -Werror -pedantic -std=gnu89`).
 
 ## Requirements
-* Language: C (compiled with `gcc -Wall -Wextra -Werror -pedantic -std=gnu89`)
-* Code must comply with the Betty coding style.
-* No standard library functions allowed unless specified.
+* **Allowed Editors:** vi, vim, emacs.
+* **Compilation:** Ubuntu 20.04 LTS via `gcc -Wall -Werror -Wextra -pedantic -std=gnu89`.
+* **Style Guide:** Strict adherence to Betty style (`betty-style.pl` and `betty-doc.pl`).
+* **Constraints:** No global variables, maximum of 5 functions per file, and standard library functions (like `printf`, `puts`) are strictly forbidden unless specified. The system utilizes a custom `_putchar` function.
+
+## Header File
+All function prototypes, including `_putchar`, must be enclosed within `main.h`.
 
 ## Tasks
 | Task | File | Description |
 | --- | --- | --- |
-| 0. isupper | `0-isupper.c` | Checks if a character is uppercase. |
+| 0. isupper | `0-isupper.c` | Checks if a character is uppercase. Returns 1 if true, 0 otherwise. |
 | 1. isdigit | `1-isdigit.c` | Checks for a digit (0 through 9). Returns 1 if true, 0 otherwise. |
 | 2. Collaboration is multiplication | `2-mul.c` | Multiplies two integers and returns the result. |
 | 3. The numbers speak for themselves | `3-print_numbers.c` | Prints the numbers from 0 to 9, followed by a new line, using `_putchar` only twice. |
@@ -26,3 +31,4 @@ This project focuses on deepening the understanding of functions, control flow, 
 | 7. I feel like I am diagonally parked in a parallel universe | `7-print_diagonal.c` | Draws a diagonal line on the terminal using spaces and the `\` character. |
 | 8. You are so much sunshine in every square inch | `8-print_square.c` | Prints a square of a given size using the `#` character, followed by a new line. |
 | 9. Fizz-Buzz | `9-fizz_buzz.c` | Prints numbers from 1 to 100 with 'Fizz' for multiples of 3, 'Buzz' for multiples of 5, and 'FizzBuzz' for both. |
+| 10. Triangles | `10-print_triangle.c` | Prints a triangle of a given size using the `#` character, followed by a new line. |
