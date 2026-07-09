@@ -25,3 +25,4 @@ This project focuses on deepening the understanding of functions, control flow, 
 | 6. The shortest distance between two points is a straight line | `6-print_line.c` | Draws a straight line in the terminal using the character `_`, followed by a new line. |
 | 7. I feel like I am diagonally parked in a parallel universe | `7-print_diagonal.c` | Draws a diagonal line on the terminal using spaces and the `\` character. |
 | 8. You are so much sunshine in every square inch | `8-print_square.c` | Prints a square of a given size using the `#` character, followed by a new line. |
+| 9. Fizz-Buzz | `9-fizz_buzz.c` | Prints numbers from 1 to 100 with 'Fizz' for multiples of 3, 'Buzz' for multiples of 5, and 'FizzBuzz' for both. |
