@@ -18,3 +18,4 @@ This project focuses on deepening the understanding of functions, control flow, 
 | --- | --- | --- |
 | 0. isupper | `0-isupper.c` | Checks if a character is uppercase. |
 | 1. isdigit | `1-isdigit.c` | Checks for a digit (0 through 9). Returns 1 if true, 0 otherwise. |
+| 2. Collaboration is multiplication | `2-mul.c` | Multiplies two integers and returns the result. |
