@@ -12,3 +12,8 @@ This project focuses on deepening the understanding of functions, control flow, 
 * Language: C (compiled with `gcc -Wall -Wextra -Werror -pedantic -std=gnu89`)
 * Code must comply with the Betty coding style.
 * No standard library functions allowed unless specified.
+
+## Tasks
+| Task | File | Description |
+| --- | --- | --- |
+| 0. isupper | `0-isupper.c` | Checks if a character is uppercase. |
