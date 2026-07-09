@@ -18,3 +18,4 @@ This project focuses on the systematic process of finding and fixing logic error
 | --- | --- | --- |
 | 0. Debugging a Counting Function | `sum_to_n.c` | Fixes a loop that misses the last iteration and returns the wrong variable. |
 | 1. Debugging Nested Loops | `multiplication_table.c` | Fixes a nested loop bug where the column control variable increments twice per iteration. |
+| 2. Debugging State Across Function Calls | `row_sums.c` | Fixes an accumulation bug where row sums were incorrectly compounded into the total sum. |
