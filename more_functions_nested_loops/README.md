@@ -22,3 +22,4 @@ This project focuses on deepening the understanding of functions, control flow, 
 | 3. The numbers speak for themselves | `3-print_numbers.c` | Prints the numbers from 0 to 9, followed by a new line, using `_putchar` only twice. |
 | 4. I believe in numbers and signs | `4-print_most_numbers.c` | Prints the numbers from 0 to 9 (excluding 2 and 4), followed by a new line, using `_putchar` only twice. |
 | 5. Numbers constitute the only universal language | `5-more_numbers.c` | Prints 10 times the numbers from 0 to 14, followed by a new line, using `_putchar` only three times. |
+| 6. The shortest distance between two points is a straight line | `6-print_line.c` | Draws a straight line in the terminal using the character `_`, followed by a new line. |
