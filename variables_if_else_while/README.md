@@ -22,3 +22,4 @@ This project covers the basics of variables, conditional statements (`if`, `if..
 | **8** | `8-print_base16.c` | Prints all the numbers of base 16 in lowercase, followed by a new line, using `putchar` three times. | <ul><li>[x] Completed</li></ul> |
 | **9** | `9-print_comb.c` | Prints all possible combinations of single-digit numbers separated by `, `, using `putchar` maximum four times. | <ul><li>[x] Completed</li></ul> |
 | **100** | `100-print_comb3.c` | Prints all possible different combinations of two digits using `putchar` maximum five times. | <ul><li>[x] Completed</li></ul> |
+| **101** | `101-print_comb4.c` | Prints all possible different combinations of three digits using `putchar` maximum six times. | <ul><li>[x] Completed</li></ul> |
