@@ -35,3 +35,4 @@ By the end of this project, I will be able to master and explain:
 | **101** | `101-natural.c` | Computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded). | <ul><li>[x] Completed</li></ul> |
 | **102** | `102-fibonacci.c` | Prints the first 50 Fibonacci numbers starting with 1 and 2, using `unsigned long` to prevent overflow. | <ul><li>[x] Completed</li></ul> |
 | **103** | `103-fibonacci.c` | Finds and prints the sum of even-valued Fibonacci terms up to 4,000,000. | <ul><li>[x] Completed</li></ul> |
+| **104** | `104-fibonacci.c` | Computes and prints the first 98 Fibonacci numbers using manual big-number partitioning. | <ul><li>[x] Completed</li></ul> |
