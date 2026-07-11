@@ -32,3 +32,4 @@ By the end of this project, I will be able to master and explain:
 | **10** | `10-add.c` | A function that adds two integers and returns the result. | <ul><li>[x] Completed</li></ul> |
 | **11** | `11-print_to_98.c` | A function that prints all natural numbers from `n` to `98`, followed by a new line. | <ul><li>[x] Completed</li></ul> |
 | **100** | `100-times_table.c` | Prints the n times table starting from 0, up to 15, with precise alignment spacing. | <ul><li>[x] Completed</li></ul> |
+| **101** | `101-natural.c` | Computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded). | <ul><li>[x] Completed</li></ul> |
