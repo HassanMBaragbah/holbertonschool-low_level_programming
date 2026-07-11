@@ -34,3 +34,4 @@ All function prototypes, including `_putchar`, must be enclosed within `main.h`.
 | **9** | `9-fizz_buzz.c` | Prints numbers from 1 to 100 with 'Fizz' for multiples of 3, 'Buzz' for multiples of 5, and 'FizzBuzz' for both. | <ul><li>[x] Completed</li></ul> |
 | **10** | `10-print_triangle.c` | Prints a triangle of a given size using the `#` character, followed by a new line. | <ul><li>[x] Completed</li></ul> |
 | **100** | `100-prime_factor.c` | Finds and prints the largest prime factor of the number 612852475143. | <ul><li>[x] Completed</li></ul> |
+| **101** | `101-print_number.c` | Prints an integer using recursion and handling `INT_MIN` safely without using `long`. | <ul><li>[x] Completed</li></ul> |
