@@ -90,15 +90,36 @@ int main(void)
 	printf("Simple Calculator\n");
 	do {
 		printf("1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0) Quit\n");
-		printf("Select the Operation option Above: ");
-		scanf("%d", &choice);
+		printf("Select an option: ");
+
+		/* If scanf fails to read choice */
+		if (scanf("%d", &choice) != 1)
+		{
+			printf("Invalid choice\n");
+			while (getchar() != '\n')
+				; /* Clear stdin */
+			choice = -1;
+			continue;
+		}
 
 		if (choice >= 1 && choice <= 4)
 		{
 			printf("Enter the first number: ");
-			scanf("%f", &num1);
+			if (scanf("%f", &num1) != 1)
+			{
+				printf("Invalid number\n");
+				while (getchar() != '\n')
+					;
+				continue;
+			}
 			printf("Enter the second number: ");
-			scanf("%f", &num2);
+			if (scanf("%f", &num2) != 1)
+			{
+				printf("Invalid number\n");
+				while (getchar() != '\n')
+					;
+				continue;
+			}
 			run_calculation(choice, num1, num2);
 		}
 		else if (choice == 0)
