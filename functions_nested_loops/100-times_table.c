@@ -1,6 +1,45 @@
 #include "main.h"
 
 /**
+ * print_formatted_prod - Prints the product with proper spacing and format.
+ * @prod: The product of row and col.
+ * @col: The current column index.
+ *
+ * Return: void.
+ */
+void print_formatted_prod(int prod, int col)
+{
+	if (col == 0)
+	{
+		_putchar(prod + '0');
+	}
+	else if (prod < 10)
+	{
+		_putchar(',');
+		_putchar(' ');
+		_putchar(' ');
+		_putchar(' ');
+		_putchar(prod + '0');
+	}
+	else if (prod < 100)
+	{
+		_putchar(',');
+		_putchar(' ');
+		_putchar(' ');
+		_putchar((prod / 10) + '0');
+		_putchar((prod % 10) + '0');
+	}
+	else
+	{
+		_putchar(',');
+		_putchar(' ');
+		_putchar((prod / 100) + '0');
+		_putchar(((prod / 10) % 10) + '0');
+		_putchar((prod % 10) + '0');
+	}
+}
+
+/**
  * print_times_table - Prints the n times table, starting with 0.
  * @n: The multiplication table to be printed (0 to 15).
  *
@@ -17,35 +56,7 @@ void print_times_table(int n)
 			for (col = 0; col <= n; col++)
 			{
 				prod = row * col;
-
-				if (col == 0)
-				{
-					_putchar(prod + '0');
-				}
-				else if (prod < 10)
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(prod + '0');
-				}
-				else if (prod < 100)
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar((prod / 10) + '0');
-					_putchar((prod % 10) + '0');
-				}
-				else
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar((prod / 100) + '0');
-					_putchar(((prod / 10) % 10) + '0');
-					_putchar((prod % 10) + '0');
-				}
+				print_formatted_prod(prod, col);
 			}
 			_putchar('\n');
 		}
