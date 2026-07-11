@@ -14,7 +14,6 @@ int main(void)
 	unsigned long fib1 = 1, fib2 = 2, next = 0;
 	unsigned long sum = 0;
 
-	/* العدد 2 هو أول عدد زوجي في المتسلسلة المعطاة */
 	sum += fib2;
 
 	while (next <= 4000000)
