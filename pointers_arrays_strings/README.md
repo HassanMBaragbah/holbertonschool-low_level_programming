@@ -13,3 +13,4 @@
 | **6** | `6-puts2.c` | Prints every other character of a string, starting with the first. | <ul><li>[x] Completed</li></ul> |
 | **7** | `7-puts_half.c` | Prints the second half of a string, handled for both even and odd lengths. | <ul><li>[x] Completed</li></ul> |
 | **8** | `8-print_array.c` | Prints n elements of an integer array separated by commas using printf. | <ul><li>[x] Completed</li></ul> |
+| **9** | `9-strcpy.c` | Copies the string pointed to by src to dest and returns dest. | <ul><li>[x] Completed</li></ul> |
