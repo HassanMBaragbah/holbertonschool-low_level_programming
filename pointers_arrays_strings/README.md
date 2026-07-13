@@ -10,3 +10,5 @@
 | **3** | `3-puts.c` | Prints a string followed by a new line to stdout using `_putchar`. | <ul><li>[x] Completed</li></ul> |
 | **4** | `4-print_rev.c` | Prints a string in reverse followed by a new line. | <ul><li>[x] Completed</li></ul> |
 | **5** | `5-rev_string.c` | Reverses a string in-place using a temporary character swap method. | <ul><li>[x] Completed</li></ul> |
+| **6** | `6-puts2.c` | Prints every other character of a string, starting with the first. | <ul><li>[x] Completed</li></ul> |
+| **7** | `7-puts_half.c` | Prints the second half of a string, handled for both even and odd lengths. | <ul><li>[x] Completed</li></ul> |
