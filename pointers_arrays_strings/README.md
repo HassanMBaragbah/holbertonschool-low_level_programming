@@ -27,3 +27,4 @@
 | **5** | `5-string_toupper.c` | Changes all lowercase letters of a string to uppercase. | <ul><li>[x] Completed</li></ul> |
 | **6** | `6-cap_string.c` | Capitalizes all words of a string based on specific separators. | <ul><li>[x] Completed</li></ul> |
 | **7** | `7-leet.c` | Encodes a string into 1337 (Leet speak) using strict constraints. | <ul><li>[x] Completed</li></ul> |
+| **8** | `100-rot13.c` | Encodes a string using ROT13 with strict constraints. | <ul><li>[x] Completed</li></ul> |
