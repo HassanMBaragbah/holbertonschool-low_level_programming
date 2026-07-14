@@ -25,3 +25,4 @@
 | **3** | `3-strcmp.c` | Compares two strings character by character and returns the ASCII difference. | <ul><li>[x] Completed</li></ul> |
 | **4** | `4-rev_array.c` | Reverses the content of an array of integers. | <ul><li>[x] Completed</li></ul> |
 | **5** | `5-string_toupper.c` | Changes all lowercase letters of a string to uppercase. | <ul><li>[x] Completed</li></ul> |
+| **6** | `6-cap_string.c` | Capitalizes all words of a string based on specific separators. | <ul><li>[x] Completed</li></ul> |
