@@ -10,26 +10,18 @@
 int main(void)
 {
 	int sum = 0;
-	int remaining;
 	char c;
 
 	srand(time(NULL));
 
-	while (sum < 2772)
+	while (sum < (2772 - 126))
 	{
 		c = rand() % 94 + 33;
-
-		if ((sum + c) <= 2772)
-		{
-			remaining = 2772 - (sum + c);
-
-			if (remaining == 0 || (remaining >= 33 && remaining <= 126))
-			{
-				sum += c;
-				putchar(c);
-			}
-		}
+		sum += c;
+		putchar(c);
 	}
+
+	putchar(2772 - sum);
 
 	return (0);
 }
