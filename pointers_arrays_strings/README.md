@@ -23,3 +23,4 @@
 | **1** | `1-strncat.c` | Concatenates two strings using at most n bytes from src. | <ul><li>[x] Completed</li></ul> |
 | **2** | `2-strncpy.c` | Copies a string up to n bytes, padding with null bytes if src is shorter. | <ul><li>[x] Completed</li></ul> |
 | **3** | `3-strcmp.c` | Compares two strings character by character and returns the ASCII difference. | <ul><li>[x] Completed</li></ul> |
+| **4** | `4-rev_array.c` | Reverses the content of an array of integers. | <ul><li>[x] Completed</li></ul> |
