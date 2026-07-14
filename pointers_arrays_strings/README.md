@@ -20,3 +20,4 @@
 | Task | File | Description | Status |
 |---|---|---|---|
 | **0** | `0-strcat.c` | Concatenates two strings by appending src to dest. | <ul><li>[x] Completed</li></ul> |
+| **1** | `1-strncat.c` | Concatenates two strings using at most n bytes from src. | <ul><li>[x] Completed</li></ul> |
