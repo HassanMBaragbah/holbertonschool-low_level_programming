@@ -37,3 +37,4 @@
 | **1. memcpy** | `1-memcpy.c` | Copies memory area from src to dest. | <ul><li>[ ] In Progress</li></ul> |
 | **2. strchr** | `2-strchr.c` | Locates a character in a string. | <ul><li>[ ] In Progress</li></ul> |
 | **3. strspn** | `3-strspn.c` | Gets the length of a prefix substring. | <ul><li>[ ] In Progress</li></ul> |
+| **4. strpbrk**| `4-strpbrk.c`| Searches a string for any of a set of bytes. | <ul><li>[ ] In Progress</li></ul> |
