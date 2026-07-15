@@ -29,4 +29,3 @@
 | **7** | `7-leet.c` | Encodes a string into 1337 (Leet speak) using strict constraints. | <ul><li>[x] Completed</li></ul> |
 | **8** | `100-rot13.c` | Encodes a string using ROT13 with strict constraints. | <ul><li>[x] Completed</li></ul> |
 | **9** | `101-print_number.c` | Prints an integer using only `_putchar` without arrays, pointers, or `long`. | <ul><li>[x] Completed</li></ul> |
-    
