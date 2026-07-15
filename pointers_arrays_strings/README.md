@@ -34,3 +34,4 @@
 | Task | File | Description | Status |
 | --- | --- | --- | --- |
 | **0. memset** | `0-memset.c` | Fills memory with a constant byte. | <ul><li>[ ] In Progress</li></ul> |
+| **1. memcpy** | `1-memcpy.c` | Copies memory area from src to dest. | <ul><li>[ ] In Progress</li></ul> |
