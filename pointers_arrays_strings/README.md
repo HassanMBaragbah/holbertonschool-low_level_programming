@@ -39,3 +39,4 @@
 | **3. strspn** | `3-strspn.c` | Gets the length of a prefix substring. | <ul><li>[ ] In Progress</li></ul> |
 | **4. strpbrk**| `4-strpbrk.c`| Searches a string for any of a set of bytes. | <ul><li>[ ] In Progress</li></ul> |
 | **5. strstr** | `5-strstr.c` | Locates a substring. | <ul><li>[ ] In Progress</li></ul> |
+| **6. Chess**  | `7-print_chessboard.c` | Prints the chessboard. | <ul><li>[ ] In Progress</li></ul> |
