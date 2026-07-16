@@ -29,6 +29,8 @@
 | **7** | `7-leet.c` | Encodes a string into 1337 (Leet speak) using strict constraints. | <ul><li>[x] Completed</li></ul> |
 | **8** | `100-rot13.c` | Encodes a string using ROT13 with strict constraints. | <ul><li>[x] Completed</li></ul> |
 | **9** | `101-print_number.c` | Prints an integer using only `_putchar` without arrays, pointers, or `long`. | <ul><li>[x] Completed</li></ul> |
+| **10. Magic**  | `102-magic.c` | Advanced pointer arithmetic to modify stack memory. | <ul><li>[x] Completed</li></ul> |
+| **11. Infinite Add** | `103-infinite_add.c` | Adds two arbitrarily large numbers represented as strings. | <ul><li>[ ] In Progress</li></ul> |
 
 
 | Task | File | Description | Status |
