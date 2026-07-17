@@ -36,7 +36,7 @@
 
 | Task | File | Description | Status |
 | --- | --- | --- | --- |
-| **0** | `0-memset.c` | Fills memory with a constant byte. | <ul><li>[x] Completed/li></ul> |
+| **0** | `0-memset.c` | Fills memory with a constant byte. | <ul><li>[x] Completed</li></ul> |
 | **1** | `1-memcpy.c` | Copies memory area from src to dest. | <ul><li>[x] Completed</li></ul> |
 | **2** | `2-strchr.c` | Locates a character in a string. | <ul><li>[x] Completed</li></ul> |
 | **3** | `3-strspn.c` | Gets the length of a prefix substring. | <ul><li>[x] Completed</li></ul> |
