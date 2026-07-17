@@ -30,17 +30,17 @@
 | **8** | `100-rot13.c` | Encodes a string using ROT13 with strict constraints. | <ul><li>[x] Completed</li></ul> |
 | **9** | `101-print_number.c` | Prints an integer using only `_putchar` without arrays, pointers, or `long`. | <ul><li>[x] Completed</li></ul> |
 | **10**  | `102-magic.c` | Advanced pointer arithmetic to modify stack memory. | <ul><li>[x] Completed</li></ul> |
-| **11** | `103-infinite_add.c` | Adds two arbitrarily large numbers represented as strings. | <ul><li>[ ] In Progress</li></ul> |
-| **10** | `104-print_buffer.c` | Prints a buffer in a formatted hex dump style. | <ul><li>[ ] In Progress</li></ul> |
+| **11** | `103-infinite_add.c` | Adds two arbitrarily large numbers represented as strings. | <ul><li>[x] Completed</li></ul> |
+| **12** | `104-print_buffer.c` | Prints a buffer in a formatted hex dump style. | <ul><li>[x] Completed</li></ul> |
 
 
 | Task | File | Description | Status |
 | --- | --- | --- | --- |
-| **0. memset** | `0-memset.c` | Fills memory with a constant byte. | <ul><li>[ ] In Progress</li></ul> |
-| **1. memcpy** | `1-memcpy.c` | Copies memory area from src to dest. | <ul><li>[ ] In Progress</li></ul> |
-| **2. strchr** | `2-strchr.c` | Locates a character in a string. | <ul><li>[ ] In Progress</li></ul> |
-| **3. strspn** | `3-strspn.c` | Gets the length of a prefix substring. | <ul><li>[ ] In Progress</li></ul> |
-| **4. strpbrk**| `4-strpbrk.c`| Searches a string for any of a set of bytes. | <ul><li>[ ] In Progress</li></ul> |
-| **5. strstr** | `5-strstr.c` | Locates a substring. | <ul><li>[ ] In Progress</li></ul> |
-| **6. Chess**  | `7-print_chessboard.c` | Prints the chessboard. | <ul><li>[ ] In Progress</li></ul> |
-| **7. Diagsums**| `8-print_diagsums.c`  | Prints the sum of the two diagonals. | <ul><li>[ ] In Progress</li></ul> |
+| **0** | `0-memset.c` | Fills memory with a constant byte. | <ul><li>[x] Completed/li></ul> |
+| **1** | `1-memcpy.c` | Copies memory area from src to dest. | <ul><li>[x] Completed</li></ul> |
+| **2** | `2-strchr.c` | Locates a character in a string. | <ul><li>[x] Completed</li></ul> |
+| **3** | `3-strspn.c` | Gets the length of a prefix substring. | <ul><li>[x] Completed</li></ul> |
+| **4**| `4-strpbrk.c`| Searches a string for any of a set of bytes. | <ul><li>[x] Completed</li></ul> |
+| **5** | `5-strstr.c` | Locates a substring. | <ul><li>[x] Completed</li></ul> |
+| **6**  | `7-print_chessboard.c` | Prints the chessboard. | <ul><li>[x] Completed</li></ul> |
+| **7**| `8-print_diagsums.c`  | Prints the sum of the two diagonals. | <ul><li>[x] Completed</li></ul> |
