@@ -6,7 +6,7 @@ This project explores dynamic memory allocation in C using `malloc` and `free` f
 
 | Task | File | Description | Status |
 | :---: | --- | --- | --- |
-| **0** | `0-create_array.c` | Creates an array of chars, and initializes it with a specific char. | <ul><li>[ ] In Progress</li></ul> |
+| **0** | `0-create_array.c` | Creates an array of chars, and initializes it with a specific char. | <ul><li>[x] Completed</li></ul> |
 | **1** | `1-strdup.c` | Returns a pointer to a newly allocated space in memory containing a copy of a string. | <ul><li>[ ] In Progress</li></ul> |
 | **2** | `2-str_concat.c` | Concatenates two strings into a newly allocated space in memory. | <ul><li>[ ] In Progress</li></ul> |
 | **3** | `3-alloc_grid.c` | Allocates a 2D array of integers and initializes each element to 0. | <ul><li>[ ] In Progress</li></ul> |
