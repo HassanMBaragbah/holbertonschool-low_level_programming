@@ -1,6 +1,6 @@
 | Task | File | Description | Status |
 | :---: | --- | --- | --- |
-| **0** | `0-puts_recursion.c` | Prints a string, followed by a new line using recursion. | <ul><li>[ ] In Progress</li></ul> |
+| **0** | `0-puts_recursion.c` | Prints a string, followed by a new line using recursion. | <ul><li>[x] Completed</li></ul> |
 | **1** | `1-print_rev_recursion.c` | Prints a string in reverse using recursion. | <ul><li>[ ] In Progress</li></ul> |
 | **2** | `2-strlen_recursion.c` | Returns the length of a string using recursion. | <ul><li>[ ] In Progress</li></ul> |
 | **3** | `3-factorial.c` | Returns the factorial of a given number using recursion. | <ul><li>[ ] In Progress</li></ul> |
