@@ -9,7 +9,7 @@ This project covers the fundamentals of C structures (`struct`) and type aliases
 | :---: | --- | --- | --- |
 | **0** | `dog.h` | Define a new type `struct dog` with elements: `name`, `age`, and `owner`. | <ul><li>[x] Completed</li></ul> |
 | **1** | `1-init_dog.c` | Write a function that initializes a variable of type `struct dog`. | <ul><li>[x] Completed</li></ul> |
-| **2** | `2-print_dog.c` | Write a function that prints a `struct dog`. | <ul><li>[ ] In Progress</li></ul> |
+| **2** | `2-print_dog.c` | Write a function that prints a `struct dog`. | <ul><li>[x] Completed</li></ul> |
 | **3** | `dog.h` | Define a new type `dog_t` as a new name for `struct dog`. | <ul><li>[ ] In Progress</li></ul> |
 | **4** | `4-new_dog.c` | Write a function that creates a new dog with dynamic memory and full string copies. | <ul><li>[ ] In Progress</li></ul> |
 | **5** | `5-free_dog.c` | Write a function that frees dogs and their allocated inner memory. | <ul><li>[ ] In Progress</li></ul> |
