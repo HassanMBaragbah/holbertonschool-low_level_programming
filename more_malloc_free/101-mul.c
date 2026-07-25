@@ -61,7 +61,7 @@ void print_error(void)
  */
 void multiply(char *n1, char *n2, int len1, int len2)
 {
-	int total_len, i, j, digit1, digit2, sum, start, non_zero;
+	int total_len, i, j, digit1, digit2, sum, start;
 	int *result;
 
 	total_len = len1 + len2;
@@ -84,20 +84,12 @@ void multiply(char *n1, char *n2, int len1, int len2)
 		}
 	}
 
-	non_zero = 0;
 	start = 0;
 	while (start < total_len - 1 && result[start] == 0)
 		start++;
 
 	for (i = start; i < total_len; i++)
-	{
-		if (result[i] != 0)
-			non_zero = 1;
 		_putchar(result[i] + '0');
-	}
-
-	if (!non_zero && result[start] == 0)
-		_putchar('0');
 
 	_putchar('\n');
 	free(result);
