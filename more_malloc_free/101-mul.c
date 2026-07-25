@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
 
-
 /**
  * _strlen - Computes the length of a string.
  * @s: The string to measure.
@@ -10,8 +9,9 @@
  */
 int _strlen(char *s)
 {
-	int len = 0;
+	int len;
 
+	len = 0;
 	while (s[len] != '\0')
 		len++;
 	return (len);
@@ -25,8 +25,9 @@ int _strlen(char *s)
  */
 int is_digit(char *s)
 {
-	int i = 0;
+	int i;
 
+	i = 0;
 	if (s == NULL || s[0] == '\0')
 		return (0);
 
@@ -45,15 +46,19 @@ int is_digit(char *s)
  */
 void print_error(void *ptr)
 {
-	char *err = "Error\n";
+	char *err;
 	int i;
 
+	err = "Error\n";
 	if (ptr != NULL)
 		free(ptr);
 
-	for (i = 0; err[i] != '\0'; i++)
+	i = 0;
+	while (err[i] != '\0')
+	{
 		_putchar(err[i]);
-
+		i++;
+	}
 	exit(98);
 }
 
@@ -66,7 +71,8 @@ void print_error(void *ptr)
  */
 void multiply(char *n1, char *n2, int len1, int len2)
 {
-	int total_len, i, j, digit1, digit2, sum, start;
+	int total_len, i, j, start;
+	int digit1, digit2, sum;
 	int *result;
 
 	total_len = len1 + len2;
