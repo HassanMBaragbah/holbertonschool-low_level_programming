@@ -106,6 +106,7 @@ int main(int argc, char *argv[])
 {
 	int len1, len2;
 
+	/* Validate arguments before doing ANY dynamic allocation */
 	if (argc != 3)
 		print_error();
 
