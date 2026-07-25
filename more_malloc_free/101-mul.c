@@ -39,12 +39,16 @@ int is_digit(char *s)
 }
 
 /**
- * print_error - Prints "Error\n" and exits with status 98.
+ * print_error - Prints "Error\n", frees optional ptr, and exits with 98.
+ * @ptr: Memory pointer to free before exiting (can be NULL).
  */
-void print_error(void)
+void print_error(void *ptr)
 {
 	char *err = "Error\n";
 	int i;
+
+	if (ptr != NULL)
+		free(ptr);
 
 	for (i = 0; err[i] != '\0'; i++)
 		_putchar(err[i]);
@@ -67,7 +71,7 @@ void multiply(char *n1, char *n2, int len1, int len2)
 	total_len = len1 + len2;
 	result = malloc(sizeof(int) * total_len);
 	if (result == NULL)
-		print_error();
+		print_error(NULL);
 
 	for (i = 0; i < total_len; i++)
 		result[i] = 0;
@@ -100,18 +104,17 @@ void multiply(char *n1, char *n2, int len1, int len2)
  * @argc: Argument count.
  * @argv: Argument vector.
  *
- * Return: Always 0 on success, exits with status 98 on error.
+ * Return: Always 0 on success.
  */
 int main(int argc, char *argv[])
 {
 	int len1, len2;
 
-	/* Validate arguments before doing ANY dynamic allocation */
 	if (argc != 3)
-		print_error();
+		print_error(NULL);
 
 	if (!is_digit(argv[1]) || !is_digit(argv[2]))
-		print_error();
+		print_error(NULL);
 
 	len1 = _strlen(argv[1]);
 	len2 = _strlen(argv[2]);
