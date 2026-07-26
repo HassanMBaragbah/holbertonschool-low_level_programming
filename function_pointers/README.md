@@ -10,7 +10,7 @@ This project covers the execution, usage, and applications of function pointers 
 | **0** | `0-print_name.c` | Writes a function that prints a name using a function pointer. | <ul><li>[x] Completed</li></ul> |
 | **1** | `1-array_iterator.c` | Executes a function given as a parameter on each element of an array. | <ul><li>[x] Completed</li></ul> |
 | **2** | `2-int_index.c` | Searches for an integer in an array using a comparison function. | <ul><li>[x] Completed</li></ul> |
-| **3** | `3-main.c`, `3-op_functions.c`, `3-get_op_func.c`, `3-calc.h` | Programs a command-line calculator using function pointers and strict rules. | <ul><li>[ ] In Progress</li></ul> |
+| **3** | `3-main.c`, `3-op_functions.c`, `3-get_op_func.c`, `3-calc.h` | Programs a command-line calculator using function pointers and strict rules. | <ul><li>[x] Completed</li></ul> |
 | **100** | `100-main_opcodes.c` | Prints the opcodes of its own main function in hexadecimal format. | <ul><li>[ ] In Progress</li></ul> |
 
 ## Learning Objectives
