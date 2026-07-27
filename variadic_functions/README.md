@@ -9,7 +9,7 @@ This project covers the concept of Variadic Functions in C language, exploring h
 | :---: | --- | --- | --- |
 | **0** | `0-sum_them_all.c` | Returns the sum of all its parameters. Returns 0 if `n == 0`. | <ul><li>[x] Completed</li></ul> |
 | **1** | `1-print_numbers.c` | Prints numbers, followed by a new line. | <ul><li>[x] Completed</li></ul> |
-| **2** | `2-print_strings.c` | Prints strings, followed by a new line. | <ul><li>[ ] In Progress</li></ul> |
+| **2** | `2-print_strings.c` | Prints strings, followed by a new line. | <ul><li>[x] Completed</li></ul> |
 | **3** | `3-print_all.c` | Prints anything based on a format specifier. | <ul><li>[ ] In Progress</li></ul> |
 
 ## Resources
