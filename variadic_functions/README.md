@@ -11,6 +11,7 @@ This project covers the concept of Variadic Functions in C language, exploring h
 | **1** | `1-print_numbers.c` | Prints numbers, followed by a new line. | <ul><li>[x] Completed</li></ul> |
 | **2** | `2-print_strings.c` | Prints strings, followed by a new line. | <ul><li>[x] Completed</li></ul> |
 | **3** | `3-print_all.c` | Prints anything based on a format specifier. | <ul><li>[x] Completed</li></ul> |
+| **4** | `100-hello_world.asm` | Writes a 64-bit assembly program that prints `Hello, World` using the `write` syscall. | <ul><li>[x] Completed</li></ul> |
 
 ## Resources
 * `stdarg.h`
