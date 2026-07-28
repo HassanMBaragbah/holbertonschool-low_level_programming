@@ -11,7 +11,7 @@ This project covers the concept of command-line arguments in C programming, expl
 | **1** | `1-args.c` | Prints the number of arguments passed into it. | <ul><li>[x] Completed</li></ul> |
 | **2** | `2-args.c` | Prints all arguments it receives, including the first one, one per line. | <ul><li>[x] Completed</li></ul> |
 | **3** | `3-mul.c` | Multiplies two numbers and prints the result. | <ul><li>[x] Completed</li></ul> |
-| **4** | `4-add.c` | Adds positive numbers after validating that all inputs contain digits only. | <ul><li>[ ] In Progress</li></ul> |
+| **4** | `4-add.c` | Adds positive numbers after validating that all inputs contain digits only. | <ul><li>[x] Completed</li></ul> |
 
 ## Resources
 * [Arguments to main](https://publications.gbdirect.co.uk//c_book/chapter10/arguments_to_main.html)
