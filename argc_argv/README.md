@@ -7,7 +7,7 @@ This project covers the concept of command-line arguments in C programming, expl
 
 | Task | File | Description | Status |
 | :---: | --- | --- | --- |
-| **0** | `0-whatsmyname.c` | Prints its name, followed by a new line. | <ul><li>[ ] In Progress</li></ul> |
+| **0** | `0-whatsmyname.c` | Prints its name, followed by a new line. | <ul><li>[x] Completed</li></ul> |
 | **1** | `1-args.c` | Prints the number of arguments passed into it. | <ul><li>[ ] In Progress</li></ul> |
 | **2** | `2-args.c` | Prints all arguments it receives, including the first one, one per line. | <ul><li>[ ] In Progress</li></ul> |
 | **3** | `3-mul.c` | Multiplies two numbers and prints the result. | <ul><li>[ ] In Progress</li></ul> |
