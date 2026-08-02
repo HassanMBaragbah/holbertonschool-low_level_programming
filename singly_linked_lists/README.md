@@ -9,7 +9,7 @@ This project covers the implementation and concepts of Singly Linked Lists in C,
 | :---: | --- | --- | --- | 
 | **0** | `0-print_list.c` | Writes a function that prints all the elements of a `list_t` list. | <ul><li>[x] Completed</li></ul> |
 | **1** | `1-list_len.c` | Returns the number of elements in a linked `list_t` list. | <ul><li>[x] Completed</li></ul> |
-| **2** | `2-add_node.c` | Adds a new node at the beginning of a `list_t` list. | <ul><li>[ ] In Progress</li></ul> |
+| **2** | `2-add_node.c` | Adds a new node at the beginning of a `list_t` list. | <ul><li>[x] Completed</li></ul> |
 | **3** | `3-add_node_end.c` | Adds a new node at the end of a `list_t` list. | <ul><li>[ ] In Progress</li></ul> |
 | **4** | `4-free_list.c` | Frees a `list_t` list and its allocated string memory. | <ul><li>[ ] In Progress</li></ul> |
 | **100** | `100-first.c` | Prints a specific string before the `main` function is executed. | <ul><li>[ ] In Progress</li></ul> |
