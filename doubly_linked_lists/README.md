@@ -9,7 +9,7 @@ This project covers the implementation and concepts of Doubly Linked Lists in C,
 | :---: | --- | --- | --- |
 | **0** | `0-print_dlistint.c` | Prints all elements of a `dlistint_t` list. | <ul><li>[x] Completed</li></ul> |
 | **1** | `1-dlistint_len.c` | Returns the number of elements in a linked `dlistint_t` list. | <ul><li>[x] Completed</li></ul> |
-| **2** | `2-add_dnodeint.c` | Adds a new node at the beginning of a `dlistint_t` list. | <ul><li>[ ] In Progress</li></ul> |
+| **2** | `2-add_dnodeint.c` | Adds a new node at the beginning of a `dlistint_t` list. | <ul><li>[x] Completed</li></ul> |
 | **3** | `3-add_dnodeint_end.c` | Adds a new node at the end of a `dlistint_t` list. | <ul><li>[ ] In Progress</li></ul> |
 | **4** | `4-free_dlistint.c` | Frees a `dlistint_t` list. | <ul><li>[ ] In Progress</li></ul> |
 | **5** | `5-get_dnodeint.c` | Returns the nth node of a `dlistint_t` linked list. | <ul><li>[ ] In Progress</li></ul> |
