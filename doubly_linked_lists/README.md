@@ -15,7 +15,7 @@ This project covers the implementation and concepts of Doubly Linked Lists in C,
 | **5** | `5-get_dnodeint.c` | Returns the nth node of a `dlistint_t` linked list. | <ul><li>[x] Completed</li></ul> |
 | **6** | `6-sum_dlistint.c` | Returns the sum of all the data (n) of a `dlistint_t` linked list. | <ul><li>[x] Completed</li></ul> |
 | **7** | `7-insert_dnodeint.c` | Inserts a new node at a given position in a `dlistint_t` list. | <ul><li>[x] Completed</li></ul> |
-| **8** | `8-delete_dnodeint.c` | Deletes the node at index of a `dlistint_t` linked list. | <ul><li>[ ] In Progress</li></ul> |
+| **8** | `8-delete_dnodeint.c` | Deletes the node at index of a `dlistint_t` linked list. | <ul><li>[x] Completed</li></ul> |
 | **100** | `100-password` | Find the password for `crackme4`. | <ul><li>[ ] In Progress</li></ul> |
 | **102** | `102-result` | Find the largest palindrome made from the product of two 3-digit numbers. | <ul><li>[ ] In Progress</li></ul> |
 | **103** | `103-keygen.c` | Generates a valid key for the `crackme5` executable. | <ul><li>[ ] In Progress</li></ul> |
