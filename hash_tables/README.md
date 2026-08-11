@@ -7,7 +7,7 @@ This project covers the concepts and implementation of Hash Tables in C programm
 
 | Task | File | Description | Status |
 | :---: | --- | --- | :---: |
-| **0** | `0-hash_table_create.c` | Writes a function that creates a hash table with a specified size. | <ul><li>[ ] In Progress</li></ul> |
+| **0** | `0-hash_table_create.c` | Writes a function that creates a hash table with a specified size. | <ul><li>[x] Completed</li></ul> |
 | **1** | `1-djb2.c` | Implements the djb2 algorithm to generate a hash key from a string. | <ul><li>[ ] Pending</li></ul> |
 | **2** | `2-key_index.c` | Gives the index of a key based on the hash code and table size. | <ul><li>[ ] Pending</li></ul> |
 | **3** | `3-hash_table_set.c` | Adds or updates an element (`key`/`value` pair) in the hash table with collision handling (chaining). | <ul><li>[ ] Pending</li></ul> |
