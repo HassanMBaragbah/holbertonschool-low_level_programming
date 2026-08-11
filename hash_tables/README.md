@@ -9,7 +9,7 @@ This project covers the concepts and implementation of Hash Tables in C programm
 | :---: | --- | --- | :---: |
 | **0** | `0-hash_table_create.c` | Writes a function that creates a hash table with a specified size. | <ul><li>[x] Completed</li></ul> |
 | **1** | `1-djb2.c` | Implements the djb2 algorithm to generate a hash key from a string. | <ul><li>[x] Completed</li></ul> |
-| **2** | `2-key_index.c` | Gives the index of a key based on the hash code and table size. | <ul><li>[ ] Pending</li></ul> |
+| **2** | `2-key_index.c` | Gives the index of a key based on the hash code and table size. | <ul><li>[x] Completed</li></ul> |
 | **3** | `3-hash_table_set.c` | Adds or updates an element (`key`/`value` pair) in the hash table with collision handling (chaining). | <ul><li>[ ] Pending</li></ul> |
 | **4** | `4-hash_table_get.c` | Retrieves a value associated with a key from the hash table. | <ul><li>[ ] Pending</li></ul> |
 | **5** | `5-hash_table_print.c` | Prints a hash table in Python dictionary-like format (`{'key': 'value'}`). | <ul><li>[ ] Pending</li></ul> |
