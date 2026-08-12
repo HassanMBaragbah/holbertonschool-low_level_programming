@@ -13,7 +13,7 @@ This project covers the concepts and implementation of Hash Tables in C programm
 | **3** | `3-hash_table_set.c` | Adds or updates an element (`key`/`value` pair) in the hash table with collision handling (chaining). | <ul><li>[x] Completed</li></ul> |
 | **4** | `4-hash_table_get.c` | Retrieves a value associated with a key from the hash table. | <ul><li>[x] Completed</li></ul> |
 | **5** | `5-hash_table_print.c` | Prints a hash table in Python dictionary-like format (`{'key': 'value'}`). | <ul><li>[x] Completed</li></ul> |
-| **6** | `6-hash_table_delete.c` | Deletes a hash table and frees all associated memory (nodes, keys, values, table). | <ul><li>[ ] Pending</li></ul> |
+| **6** | `6-hash_table_delete.c` | Deletes a hash table and frees all associated memory (nodes, keys, values, table). | <ul><li>[x] Completed</li></ul> |
 | **100** | `100-sorted_hash_table.c` | *(Advanced)* Implements a PHP-like sorted hash table (`shash_table_t`) using a doubly linked list to preserve order. | <ul><li>[ ] Optional</li></ul> |
 
 ## Learning Objectives
