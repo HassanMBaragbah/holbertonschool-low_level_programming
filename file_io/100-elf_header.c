@@ -4,6 +4,7 @@
 #include <fcntl.h>
 #include <elf.h>
 
+void print_osabi_and_abi(unsigned char *e);
 void check_and_print_ident(unsigned char *e);
 void print_type_and_entry(unsigned int e_type,
 			  unsigned long int e_entry,
@@ -11,7 +12,52 @@ void print_type_and_entry(unsigned int e_type,
 void close_elf(int elf);
 
 /**
- * check_and_print_ident - Checks if file is ELF and prints e_ident info.
+ * print_osabi_and_abi - Prints OS/ABI and ABI version.
+ * @e: Pointer to ELF magic numbers array.
+ */
+void print_osabi_and_abi(unsigned char *e)
+{
+	printf("  OS/ABI:                            ");
+	switch (e[EI_OSABI])
+	{
+	case ELFOSABI_NONE:
+		printf("UNIX - System V\n");
+		break;
+	case ELFOSABI_HPUX:
+		printf("UNIX - HP-UX\n");
+		break;
+	case ELFOSABI_NETBSD:
+		printf("UNIX - NetBSD\n");
+		break;
+	case ELFOSABI_LINUX:
+		printf("UNIX - Linux\n");
+		break;
+	case ELFOSABI_SOLARIS:
+		printf("UNIX - Solaris\n");
+		break;
+	case ELFOSABI_IRIX:
+		printf("UNIX - IRIX\n");
+		break;
+	case ELFOSABI_FREEBSD:
+		printf("UNIX - FreeBSD\n");
+		break;
+	case ELFOSABI_TRU64:
+		printf("UNIX - TRU64\n");
+		break;
+	case ELFOSABI_ARM:
+		printf("ARM\n");
+		break;
+	case ELFOSABI_STANDALONE:
+		printf("Standalone App\n");
+		break;
+	default:
+		printf("<unknown: %x>\n", e[EI_OSABI]);
+	}
+	printf("  ABI Version:                       %d\n", e[EI_ABIVERSION]);
+}
+
+/**
+ * check_and_print_ident - Checks if file is ELF and prints main header info.
  * @e: Pointer to ELF magic numbers array.
  */
 void check_and_print_ident(unsigned char *e)
@@ -19,7 +65,7 @@ void check_and_print_ident(unsigned char *e)
 	int i;
 
 	if (e[EI_MAG0] != 127 || e[EI_MAG1] != 'E' ||
-		e[EI_MAG2] != 'L' || e[EI_MAG3] != 'F')
+	    e[EI_MAG2] != 'L' || e[EI_MAG3] != 'F')
 	{
 		dprintf(STDERR_FILENO, "Error: Not an ELF file\n");
 		exit(98);
@@ -28,7 +74,7 @@ void check_and_print_ident(unsigned char *e)
 	for (i = 0; i < EI_NIDENT; i++)
 		printf("%02x%s", e[i], i == EI_NIDENT - 1 ? "\n" : " ");
 
-	printf("  Class:							 ");
+	printf("  Class:                             ");
 	if (e[EI_CLASS] == ELFCLASS32)
 		printf("ELF32\n");
 	else if (e[EI_CLASS] == ELFCLASS64)
@@ -36,7 +82,7 @@ void check_and_print_ident(unsigned char *e)
 	else
 		printf("<unknown: %x>\n", e[EI_CLASS]);
 
-	printf("  Data:							  ");
+	printf("  Data:                              ");
 	if (e[EI_DATA] == ELFDATA2LSB)
 		printf("2's complement, little endian\n");
 	else if (e[EI_DATA] == ELFDATA2MSB)
@@ -44,20 +90,10 @@ void check_and_print_ident(unsigned char *e)
 	else
 		printf("<unknown: %x>\n", e[EI_DATA]);
 
-	printf("  Version:						   %d%s",
-		   e[EI_VERSION], e[EI_VERSION] == EV_CURRENT ? " (current)\n" : "\n");
+	printf("  Version:                           %d%s",
+	       e[EI_VERSION], e[EI_VERSION] == EV_CURRENT ? " (current)\n" : "\n");
 
-	printf("  OS/ABI:							");
-	if (e[EI_OSABI] == ELFOSABI_NONE || e[EI_OSABI] == ELFOSABI_SYSV)
-		printf("UNIX - System V\n");
-	else if (e[EI_OSABI] == ELFOSABI_NETBSD)
-		printf("UNIX - NetBSD\n");
-	else if (e[EI_OSABI] == ELFOSABI_SOLARIS)
-		printf("UNIX - Solaris\n");
-	else
-		printf("<unknown: %x>\n", e[EI_OSABI]);
-
-	printf("  ABI Version:					   %d\n", e[EI_ABIVERSION]);
+	print_osabi_and_abi(e);
 }
 
 /**
@@ -73,7 +109,7 @@ void print_type_and_entry(unsigned int e_type,
 	if (e[EI_DATA] == ELFDATA2MSB)
 		e_type >>= 8;
 
-	printf("  Type:							  ");
+	printf("  Type:                              ");
 	if (e_type == ET_NONE)
 		printf("NONE (None)\n");
 	else if (e_type == ET_REL)
@@ -87,7 +123,7 @@ void print_type_and_entry(unsigned int e_type,
 	else
 		printf("<unknown: %x>\n", e_type);
 
-	printf("  Entry point address:			   ");
+	printf("  Entry point address:               ");
 	if (e[EI_DATA] == ELFDATA2MSB)
 	{
 		e_entry = ((e_entry << 8) & 0xFF00FF00) |
