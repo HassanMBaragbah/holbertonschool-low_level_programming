@@ -11,7 +11,7 @@ This project covers low-level File Input/Output (I/O) system calls in C, focusin
 | **1** | `1-create_file.c` | Creates a file with permissions `rw-------` and writes text content to it. | <ul><li>[x] Completed</li></ul> |
 | **2** | `2-append_text_to_file.c` | Appends text at the end of an existing file without creating it if non-existent. | <ul><li>[x] Completed</li></ul> |
 | **3** | `3-cp.c` | Copies the content of a file to another file with precise error handling and exit codes. | <ul><li>[x] Completed</li></ul> |
-| **100** | `100-elf_header.c` | Displays information contained in the ELF header at the start of an ELF file like `readelf -h`. | <ul><li>[ ] In Progress</li></ul> |
+| **100** | `100-elf_header.c` | Displays information contained in the ELF header at the start of an ELF file like `readelf -h`. | <ul><li>[x] Completed</li></ul> |
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
